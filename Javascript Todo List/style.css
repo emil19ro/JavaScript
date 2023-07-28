@@ -1,0 +1,27 @@
+body{
+    background: #171330;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+    color: #fff;
+    border: none;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  .search input::placeholder {
+    color: rgb(95, 94, 94);
+  }
+  .filtered { 
+    display: none !important;
+  }
